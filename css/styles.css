@@ -87,6 +87,7 @@ ul {
 }
 
 .nav-list .link {
+  padding: 25px 0;
   position: relative;
   letter-spacing: 0.02em;
   font-size: 16px;
@@ -99,15 +100,11 @@ ul {
 .nav-list .link::after {
   display: block;
   position: absolute;
-  bottom: -27px;
+  bottom: -1px;
   height: 4px;
   width: 100%;
   border-radius: 2px;
   content: '';
-  background-color: #ffffff;
-}
-
-.nav-list .link:hover::after {
   background-color: #404bbf;
 }
 
@@ -341,8 +338,8 @@ ul {
   background-color: #404bbf;
 }
 .our-team-social-link-a svg {
-  width: 16px;
-  height: 16px;
+  /* width: 16px;
+  height: 16px;*/
   fill: #4d5ae5;
 }
 .our-team-social-links {
@@ -478,6 +475,8 @@ ul {
   letter-spacing: 0.02em;
   height: 80px;
   width: 208px;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-social-media {
