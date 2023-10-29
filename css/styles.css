@@ -261,19 +261,6 @@ ol {
   margin-bottom: 8px;
 }
 
-/*
-.advantages-list-icon {
-  width: 64px;
-  height: 64px;
-  /*display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #8e8f99;
-  background: #f4f4fd;
-  border-radius: 4px;
-  padding: 24px 100px;
-}*/
-
 /* ####################### our team section-3 ########### */
 
 .our-team {
@@ -442,24 +429,18 @@ ol {
 
 /*--*************************** footer *****************************--*/
 
-.footer-main-div {
-  align-items: baseline;
+.footer {
   padding: 100px 0;
   background-color: #2e2f42;
+}
+
+.footer-main-div {
   display: flex;
-  max-width: 1158px;
-  margin: 0 auto 0 auto;
-}
-.footer .container {
-  padding: 0;
-}
-.footer-container {
-  margin-right: 120px;
+  align-items: baseline;
 }
 
 .footer-container-logo {
-  max-width: 264px;
-  margin-left: 156px;
+  margin-right: 120px;
 }
 
 .footer-link-logo {
@@ -488,9 +469,10 @@ ol {
 }
 
 .footer-text {
+  max-width: 264px;
   color: #ffffff;
   font-family: Roboto, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -505,7 +487,6 @@ ol {
 
 .footer-container-media {
   max-width: 208px;
-  margin-left: 0;
 }
 .footer-social-media {
   color: #ffffff;
@@ -551,16 +532,3 @@ ol {
 .footer-social-list-link-a:focus {
   background-color: #31d0aa;
 }
-
-/**************  DELETE AFTER CHECK  ******************/
-/*.footer-social-media,
-.footer .container,
-.logo-disp {
-  border: 2px solid #ffffff;
-}
-
-/*      find  it shit
-.our-team-social-links {
-  width: 16px;
-  height: 16px;
-}         */
