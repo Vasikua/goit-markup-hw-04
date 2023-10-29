@@ -316,9 +316,6 @@ ol {
 .name-profession {
   border-radius: 0px 0px 4px 4px;
   padding: 32px 0;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .our-team .title-li,
@@ -348,23 +345,33 @@ ol {
   gap: 24px;
   justify-content: center;
 }
-
-.our-team-social-link-a {
+/*    взято з name profession    */
+.our-team-social-link {
   width: 40px;
   height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.our-team-social-link-a {
+  width: 100%; /*40px was*/
+  height: 100%; /*40px was*/
   display: flex;
   border-radius: 50%;
   background-color: #4d5ae5;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team-social-link-a:hover {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .our-team-social-link-a:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 /*-- ********************our portfolio    section-4 ******--*/
@@ -390,12 +397,32 @@ ol {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list .list-li:hover p {
+.app-pictures {
+  position: relative;
+  overflow: hidden;
+}
+
+.app-description .text:hover {
   transform: translateY(0%);
 }
 .app-pictures {
   position: relative;
   overflow: hidden;
+}
+
+.app-pictures-decription {
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .app-description {
@@ -410,7 +437,8 @@ ol {
 
 /*--*************************** footer *****************************--*/
 
-.footer {
+.footer-main-div {
+  align-items: baseline;
   padding: 100px 0;
   background-color: #2e2f42;
   display: flex;
@@ -485,14 +513,23 @@ ol {
   gap: 16px;
   justify-content: center;
 }
-.footer-social-list-link-a {
+.footer-social-link {
   width: 40px;
   height: 40px;
+}
+
+.footer-social-list-link-a {
+  width: 100%;
+  height: 100%;
   display: flex;
   border-radius: 50%;
   background-color: #4d5ae5;
   justify-content: center;
   align-items: center;
+}
+
+.footer-social-links {
+  fill: #f4f4fd;
 }
 
 .footer-social-list-link-a:hover {
