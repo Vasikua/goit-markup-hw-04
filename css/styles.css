@@ -260,18 +260,18 @@ ol {
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
-/*
+
 .advantages-list-icon {
-  display: flex;
+  width: 64px;
+  height: 64px;
+  /*display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid #8e8f99;
   background: #f4f4fd;
   border-radius: 4px;
-  width: 64px;
-  height: 64px;
-  /*padding: 24px 100px;
-}*/
+  padding: 24px 100px;*/
+}
 
 /* ####################### our team section-3 ########### */
 
