@@ -339,6 +339,10 @@ ol {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.our-team-social-links {
+  fill: #f4f4fd;
+}
+
 .our-team-social-link-a {
   width: 100%;
   height: 100%;
