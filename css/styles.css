@@ -281,8 +281,6 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   font-family: Roboto, sans-serif;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .our-team-list {
@@ -331,7 +329,7 @@ ol {
   gap: 24px;
   justify-content: center;
 }
-/*    взято з name profession    */
+/*    take it from name profession    */
 .our-team-social-link {
   width: 40px;
   height: 40px;
